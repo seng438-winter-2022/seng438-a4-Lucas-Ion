@@ -97,7 +97,10 @@ Throughout the lab we were required to engage in theoretical and hands on work, 
 
 # Report all the statistics and the mutation score for each test class
 
+The relevant stats can be found here:
 
+New Updated Stats with 10%+ increase: https://github.com/seng438-winter-2022/seng438-a4-Lucas-Ion/tree/main/New-Increase-Coverage
+Old Original Stats: https://github.com/seng438-winter-2022/seng438-a4-Lucas-Ion/tree/main/Old-Mutation-Coverage
 
 # Analysis drawn on the effectiveness of each of the test classes
 
