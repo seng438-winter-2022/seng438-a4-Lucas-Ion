@@ -1,0 +1,1849 @@
+{
+  "id": "52820264-eb53-48dc-881f-c7de29a44766",
+  "version": "2.0",
+  "name": "BestBuy-CompleteTestSuite",
+  "url": "https://www.bestbuy.ca/account/en-ca/email-sign-up",
+  "tests": [{
+    "id": "04324301-40e2-42c3-af46-0d6d2c54ce4a",
+    "name": "BestBuy-SuccessLocationSearch (1)",
+    "commands": [{
+      "id": "d60c6fe3-d5b6-4000-b698-312d53a2541e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca5b3d1b-5222-486f-b4ce-a36826f0051f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1319x793",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88d40a5b-8708-460d-8051-220bec19c8e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.storesLabel_184Qo",
+      "targets": [
+        ["css=.storesLabel_184Qo", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win358",
+      "windowTimeout": 2000
+    }, {
+      "id": "6bac252f-8376-4d0c-abb3-f92e8885008b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win358}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96b9c82e-5908-4ef2-81b0-215ec0017c16",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0d30b30-c3dc-4761-9f54-26e1beaed9c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Toronto"
+    }, {
+      "id": "23010dfe-79ae-4f59-a1c6-adda0ed1110c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ec9f6b0-fa5d-4f22-ac12-fedc9e7f17c0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "149c5f3a-36a2-486e-8f2c-bb95219e2380",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5331925d-3b73-48d2-b9cb-13f0a71ff7d4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ResultSummary",
+      "targets": [
+        ["css=.ResultSummary", "css:finder"],
+        ["xpath=//div[@id='js-locator']/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "10 locations near \"Toronto, ON\""
+    }]
+  }, {
+    "id": "9e2dad5e-0f59-46ec-a7a5-d1536f013b37",
+    "name": "BestBuy-InvalidLocationSearch(1)",
+    "commands": [{
+      "id": "d826c242-2af2-49de-aa9d-717764d59b69",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a66d8bdf-ad4c-4cc7-aa28-f8dffd3726d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1319x793",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44ccd909-90b9-4dc8-a3de-5044c3754acc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.storesLabel_184Qo",
+      "targets": [
+        ["css=.storesLabel_184Qo", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4233",
+      "windowTimeout": 2000
+    }, {
+      "id": "634d1716-c49d-45dc-a781-c23589e768f3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4233}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0154cc9c-46dc-4e57-b66b-ca726f5c6f2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed4bb88b-fa8a-4e02-ac8a-163cc73f0192",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Phoenix Arizona"
+    }, {
+      "id": "dad59e54-5a86-429b-8fbf-904781b8cd88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "30a73d96-0cb3-43df-b392-850650519206",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bc99d18-0112-4d86-bfb4-87d99c2fe82b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f7d3304-fbbd-462a-8189-215fea8ea377",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3068b05-94f3-4562-9abe-4c196eecf1da",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "407b2a52-a8a5-4728-b831-d5d1f1d0f4ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Locator-noResults",
+      "targets": [
+        ["css=.Locator-noResults", "css:finder"],
+        ["xpath=//div[@id='js-locator']/div[2]/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac7912a2-4f24-406b-8d41-d2fec32ddf02",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.Locator-noResults",
+      "targets": [
+        ["css=.Locator-noResults", "css:finder"],
+        ["xpath=//div[@id='js-locator']/div[2]/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": "Sorry, there are no locations near \"Phoenix, AZ\". Please modify your search and try again or browse our directory."
+    }]
+  }, {
+    "id": "56302593-32ea-419e-8a2e-a22d598a5143",
+    "name": "BestBuy-InvalidProductSearch (2)",
+    "commands": [{
+      "id": "cb319b8c-8e85-4f8c-9cea-a42b90ae065e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c063a78-568e-468a-b62b-7a6497acb012",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1319x793",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66f124f9-bcf5-4777-9ef6-b060ee7991c9",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eec8ce0a-a62e-4914-8b4b-4916eb793f61",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "1234ae34-743b-430c-bae2-accc23ea5f4f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c86f4da9-73da-4535-bfcb-305abf6d8ad7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(4) button > span",
+      "targets": [
+        ["css=li:nth-child(4) button > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div/div[2]/div/div/div/div/div/ul/li[4]/div/button/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc13f683-c37e-455d-b6fb-b0d1249747a7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/main/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Sorry, we couldn’t find anything for \"123456789\"')]", "xpath:innerText"]
+      ],
+      "value": "Sorry, we couldn’t find anything for \"123456789\""
+    }]
+  }, {
+    "id": "b04ec476-4e98-4807-806c-68c7ad76eaf9",
+    "name": "BestBuy-SuccessProductSearch(2)",
+    "commands": [{
+      "id": "41cc72c8-4b1d-42ff-aab7-940a5d202164",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e31b842-ee55-4568-b497-37092fec9de6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f65bc710-d808-4366-a1fe-d71f01a03be3",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd136865-0c33-4a3d-b920-806bc477a6dc",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tv"
+    }, {
+      "id": "6dcec426-337e-4882-afef-6925c6e1e44a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b2215ece-5b1a-441f-9b66-fd22971441f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,304)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d12d6c03-c857-4020-b4f2-3b7f2e0bdff8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,628)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4d6bf56-fa86-45f5-b3d3-0f368f75f178",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1527)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ecac2d8-08ee-43a7-a43b-02332fb3471f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2298)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc84f265-0dba-40ab-9126-76d3204f9de7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3760)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43ffba89-aa33-4446-9076-b54533f80ed8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4145)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6598c614-6582-4c63-8f1b-163ba9217c25",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.breadcrumb_iafPH > li:nth-child(3)",
+      "targets": [
+        ["css=.breadcrumb_iafPH > li:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/main/div/div/ol/li[3]", "xpath:idRelative"],
+        ["xpath=//ol/li[3]", "xpath:position"]
+      ],
+      "value": "Televisions"
+    }]
+  }, {
+    "id": "94bef783-4b22-4a1a-aa9e-caf92b9821c0",
+    "name": "BestBuy-SuccessAddToCart(3)",
+    "commands": [{
+      "id": "1e962062-9c9e-4e3f-bffd-99047365ed1b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca/product/google-chromecast-3rd-generation-charcoal-grey/13021720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b55883c-7953-4abb-ae22-ea6be1ee37c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7037e357-bd1e-4a87-b01c-8f3276981c31",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,14)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d0aecd7-494d-4bca-891a-22a01e9a39c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addToCartLabel_YZaVX > span",
+      "targets": [
+        ["css=.addToCartLabel_YZaVX > span", "css:finder"],
+        ["xpath=//form[@id='test']/button/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d496e69c-11ab-47c2-824e-2f499034645a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCartLabel_YZaVX > span",
+      "targets": [
+        ["css=.addToCartLabel_YZaVX > span", "css:finder"],
+        ["xpath=//form[@id='test']/button/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd403fa4-51c0-4803-95ab-58885831626c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87ccef6a-d329-45dc-b977-792e281f38e4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.contentContainer_1GQT- > p",
+      "targets": [
+        ["css=.contentContainer_1GQT- > p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div[2]/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'This item has been added to your cart.')]", "xpath:innerText"]
+      ],
+      "value": "This item has been added to your cart."
+    }, {
+      "id": "036c649d-becd-46e9-8e3b-9ebc5920cfdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.counter",
+      "targets": [
+        ["css=.counter", "css:finder"],
+        ["xpath=//div[@id='cartIcon']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95b27819-a00b-4049-a422-be60c7fb735c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) .content_s_5J6",
+      "targets": [
+        ["css=div:nth-child(3) .content_s_5J6", "css:finder"],
+        ["xpath=//div[@id='cart-scroll-target-13021720']/div/div[2]/section/div/div/div[2]/div[3]/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21d26f69-34be-45e9-9c58-6cb26c82cc14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo_3ePCc > path:nth-child(6)",
+      "targets": [
+        ["css=.logo_3ePCc > path:nth-child(6)", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1f3caf82-e831-4260-8df3-e3195b9672c8",
+    "name": "BestBuy-UnableToAddToCart(3)",
+    "commands": [{
+      "id": "3e3aad28-fc80-4c40-8439-312b1d25bda0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca/product/google-google-chromecast-ultra-nc2-6a5-d/10482688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70b773f7-f00b-4006-a365-aa4a71d9594f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "742976e9-af9e-4820-9325-72db10688e74",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addToCartLabel_YZaVX > span",
+      "targets": [
+        ["css=.addToCartLabel_YZaVX > span", "css:finder"],
+        ["xpath=//form[@id='test']/button/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcf13db9-3806-419a-9751-b094a2661001",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCartLabel_YZaVX > span",
+      "targets": [
+        ["css=.addToCartLabel_YZaVX > span", "css:finder"],
+        ["xpath=//form[@id='test']/button/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f4a8602-8baa-4a33-9f7b-84e49ee30854",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCartLabel_YZaVX > span",
+      "targets": [
+        ["css=.addToCartLabel_YZaVX > span", "css:finder"],
+        ["xpath=//form[@id='test']/button/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78aa4fd6-e54d-4847-bbac-7ed450c5fb62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCartLabel_YZaVX > span",
+      "targets": [
+        ["css=.addToCartLabel_YZaVX > span", "css:finder"],
+        ["xpath=//form[@id='test']/button/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b778f40f-8291-4d0e-8372-d60ee18215d0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.addToCartLabel_YZaVX > span",
+      "targets": [
+        ["css=.addToCartLabel_YZaVX > span", "css:finder"],
+        ["xpath=//form[@id='test']/button/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4117e55-0465-45e0-887c-353b95ef9302",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label",
+      "targets": [
+        ["css=.label", "css:finder"],
+        ["xpath=//div[@id='cartIcon']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c9951d-1d8c-49b5-b8c4-823cd9c345fb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div[2]/div/section/section/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": "Looks like it's empty!"
+    }]
+  }, {
+    "id": "9c1dc7ed-cb6a-4edd-bdf3-089c8be44c2c",
+    "name": "BestBuy-SuccessSelectPickup(4)",
+    "commands": [{
+      "id": "0047a782-7b44-4710-bf1d-de9a7ff54f3c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca/product/lg-65-4k-uhd-hdr-oled-webos-smart-tv-oled65c1aub-2021/15442034",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "642cdbf5-e468-4111-95a5-092c3dc59fdc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3186ae55-f98f-42bf-836d-82022ed63351",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,58)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd28dafd-c657-44e4-a47d-46ce64135cbb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,457)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d0a4195-aa86-40cf-8408-f47709b39434",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fluidRow_1-dCG:nth-child(1) .pickupStoreReserveButton_87Pyj",
+      "targets": [
+        ["css=.fluidRow_1-dCG:nth-child(1) .pickupStoreReserveButton_87Pyj", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div[2]/div/div[2]/div[6]/div[3]/div/div[2]/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pick Up Here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "546eeebc-5122-4a9a-8520-37a4a2713f77",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.page-title > h2",
+      "targets": [
+        ["css=.page-title > h2", "css:finder"],
+        ["xpath=//div[@id='root']/form/div/div/div/section[2]/main/section/article/header/h2", "xpath:idRelative"],
+        ["xpath=//article/header/h2", "xpath:position"]
+      ],
+      "value": "Who's picking this up?"
+    }]
+  }, {
+    "id": "5137ed98-c05f-4d6a-8cc9-719311f761b8",
+    "name": "BestBuy-UnableToSelectPickup(4)",
+    "commands": [{
+      "id": "3678a1ee-7a51-44df-a91c-888452032535",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca/product/lg-65-4k-uhd-hdr-oled-webos-smart-tv-oled65c1aub-2021/15442034",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed824145-56f6-43c2-b7e7-efbe1a1a9071",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5e1ab70-fdf8-42c0-ae36-9e00e7f6a02e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13a32292-43c8-4408-b510-93cbd7bf4aad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Check other stores",
+      "targets": [
+        ["linkText=Check other stores", "linkText"],
+        ["css=.x-update-location-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Check other stores')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/div[2]/div/div[2]/div[6]/div[3]/div/div[2]/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/reserve-and-pickup/15442034')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Check other stores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e499511-6734-474b-8ce1-41bc3f009cdb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Check other stores",
+      "targets": [
+        ["linkText=Check other stores", "linkText"],
+        ["css=.x-update-location-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Check other stores')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/div[2]/div/div[2]/div[5]/div[3]/div/div[2]/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/reserve-and-pickup/15442034')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Check other stores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a5fa4e-5040-4cd9-b19c-e836c0a57195",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.simpleProductDetailsBrief_3EGgd",
+      "targets": [
+        ["css=.simpleProductDetailsBrief_3EGgd", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div/div[2]/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed76399b-3ec0-45f7-90da-cfd5cc2246d3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.simpleProductDetailsBrief_3EGgd",
+      "targets": [
+        ["css=.simpleProductDetailsBrief_3EGgd", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div/div[2]/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e11550fd-c1b9-4ed0-a9e2-eb25bb15e76a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "-10,578"
+    }, {
+      "id": "b952e4ff-1cbf-4aae-bdbf-c3e04e39917d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "-10,578"
+    }, {
+      "id": "7f969741-bce4-4ded-891c-36e1b826fa9f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "-10,578"
+    }, {
+      "id": "f667ba41-234b-47f0-830f-3b5bce6789be",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aea30716-9cc6-4471-af5c-583ccdcb9232",
+      "comment": "",
+      "command": "type",
+      "target": "id=postalCode",
+      "targets": [
+        ["id=postalCode", "id"],
+        ["name=postalCode", "name"],
+        ["css=#postalCode", "css:finder"],
+        ["xpath=//input[@id='postalCode']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div/div[3]/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "T3S"
+    }, {
+      "id": "4fa380ef-df83-44d5-a721-924b18ac569c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchBtn_3_HLW > .content_3Dbgg",
+      "targets": [
+        ["css=.searchBtn_3_HLW > .content_3Dbgg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div/div[3]/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd0c32e4-d56b-401e-9574-ee8a86a2ef91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.storeListItem_3piwR:nth-child(6) > .details_3xU8n .availabilityMessage_1waQP",
+      "targets": [
+        ["css=.storeListItem_3piwR:nth-child(6) > .details_3xU8n .availabilityMessage_1waQP", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div/div[4]/div/div/div[6]/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Out of Stock')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1e44d2d-d79c-4574-a22e-8fd2dff589c3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.storeListItem_3piwR:nth-child(6) > .details_3xU8n .availabilityMessage_1waQP",
+      "targets": [
+        ["css=.storeListItem_3piwR:nth-child(6) > .details_3xU8n .availabilityMessage_1waQP", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div/div[4]/div/div/div[6]/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Out of Stock')]", "xpath:innerText"]
+      ],
+      "value": "Out of Stock"
+    }]
+  }, {
+    "id": "1c8c76c2-8ff1-4488-9e3f-9743fd96ca64",
+    "name": "BestBuy-SucessfullFilter(5)",
+    "commands": [{
+      "id": "88c8ad3c-6b42-43d8-a7af-0cc2726eabb2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b3df81e-cfed-411a-9145-3e8eec562245",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2138e159-215e-415a-8bed-92fa32cae7c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(1) button > .white_2VxdF",
+      "targets": [
+        ["css=li:nth-child(1) button > .white_2VxdF", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a583a8a-04c6-4217-a66f-15ffb1e23ad1",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) button > .white_2VxdF",
+      "targets": [
+        ["css=li:nth-child(1) button > .white_2VxdF", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2e860df-7c1a-4980-8d99-4190fabd4d28",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.activeButton_2iIS_ > .white_2VxdF",
+      "targets": [
+        ["css=.activeButton_2iIS_ > .white_2VxdF", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed36e8a2-979b-46a2-8adf-19c2e41f4687",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptops On Sale",
+      "targets": [
+        ["linkText=Laptops On Sale", "linkText"],
+        ["css=.visible_3dJAE .subCategoryList_1p898:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptops On Sale')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/div/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/collection/laptops-on-sale/46082')]", "xpath:href"],
+        ["xpath=//div/div/div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptops On Sale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "004a34f8-1783-4adf-b6ae-81ff8e86a3fc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,280)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "693befcd-a911-443b-8fbe-5bbb59a05414",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1052)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99f136b9-d53f-4650-b739-dbaf244caf2a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1712)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62d5c013-35c9-4b57-bec3-2888e1be54f5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2217)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac10422b-b738-45fc-be8b-a0ff7666ab64",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2724)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a395cba7-25a2-4a58-9503-0dc7c69fa85f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container_3BQfa:nth-child(7) path",
+      "targets": [
+        ["css=.container_3BQfa:nth-child(7) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df6db0d-8691-47a0-9c5e-93a9f7708d33",
+      "comment": "",
+      "command": "click",
+      "target": "id=facetFilter-Less than $300",
+      "targets": [
+        ["id=facetFilter-Less than $300", "id"],
+        ["name=facetFilter-Less than $300", "name"],
+        ["css=#facetFilter-Less\\ than\\ \\$300", "css:finder"],
+        ["xpath=//input[@id='facetFilter-Less than $300']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/main/div/div[3]/div/div/div[7]/div/div/div/div/li/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/li/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82e855c5-e1dd-4e47-bd6f-52ec763fb8a2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4910870-856d-4886-b7fc-52aa1ea9c66f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,129)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd5fd398-f425-42ac-aa36-22e16e09a726",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.pill_2ra42",
+      "targets": [
+        ["css=.pill_2ra42", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/main/div/div[2]/div[2]/div[2]/ul/li", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div[2]/div[2]/ul/li", "xpath:position"]
+      ],
+      "value": "Less than $300"
+    }]
+  }, {
+    "id": "8e47cfe9-c630-4b2c-9258-f4c9accfffd8",
+    "name": "BestBuy-UnsuccessfullFilter(5)",
+    "commands": [{
+      "id": "c587ccfc-daf4-451e-b3c9-480b34397622",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32b02e8d-d0df-40c6-9538-6c5bc7361587",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdcb90ec-185e-4978-8420-7e9ef5d83139",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) button path",
+      "targets": [
+        ["css=li:nth-child(1) button path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "15d9b25f-eb16-4ea1-b9d1-4382f52e93f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptops On Sale",
+      "targets": [
+        ["linkText=Laptops On Sale", "linkText"],
+        ["css=.visible_3dJAE .subCategoryList_1p898:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptops On Sale')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/div/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/collection/laptops-on-sale/46082')]", "xpath:href"],
+        ["xpath=//div/div/div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptops On Sale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2fde829-6597-4ba8-9649-98175ff8b484",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,230)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ebc9db1-e26d-4ca4-98c7-990c059bd864",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,722)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad413561-0d29-462f-aad8-1d9167d0afc5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1221)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "801e25be-6979-433d-bad6-7e67c4b19bad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2810)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb1e9faf-5a2d-44da-823e-569b61308d6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container_3BQfa:nth-child(7) .darkGrey_oThXm",
+      "targets": [
+        ["css=.container_3BQfa:nth-child(7) .darkGrey_oThXm", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "54149879-2711-4d0a-9d33-c91e81ffc46a",
+      "comment": "",
+      "command": "click",
+      "target": "id=price-search-bar-min-input",
+      "targets": [
+        ["id=price-search-bar-min-input", "id"],
+        ["name=price-search-bar-min-input", "name"],
+        ["css=#price-search-bar-min-input", "css:finder"],
+        ["xpath=//input[@id='price-search-bar-min-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/main/div/div[3]/div/div/div[7]/div/div/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8e2d14-5d92-4e67-ac49-a692d740b100",
+      "comment": "",
+      "command": "type",
+      "target": "id=price-search-bar-min-input",
+      "targets": [
+        ["id=price-search-bar-min-input", "id"],
+        ["name=price-search-bar-min-input", "name"],
+        ["css=#price-search-bar-min-input", "css:finder"],
+        ["xpath=//input[@id='price-search-bar-min-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/main/div/div[3]/div/div/div[7]/div/div/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "$1000000"
+    }, {
+      "id": "2e453258-c8c6-44c6-8a24-a245b5359881",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_n0Jvi > .content_3Dbgg",
+      "targets": [
+        ["css=.button_n0Jvi > .content_3Dbgg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/main/div/div[3]/div/div/div[7]/div/div/div/div/div/form/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Apply Price Range')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9039617b-9078-4b67-bb47-c95a1274c1ef",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.header_263-p",
+      "targets": [
+        ["css=.header_263-p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "Page Not Found"
+    }]
+  }, {
+    "id": "ecb67a32-fa00-413b-9b71-87bfd1edbc4e",
+    "name": "BestBuy-SuccessEmailSignUp(6)",
+    "commands": [{
+      "id": "64ca73ee-9b28-4c2a-b990-2e3db86e8134",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/account/en-ca/email-sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85afd32e-95eb-4ab2-9077-8660c61eeb19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0d8467f-53d8-4536-a499-a3be70ae5793",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=.vPpxf #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72cfb24b-4c47-483b-9bb8-143ea1b0f485",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=.vPpxf #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "bobtest1358@gmail.com"
+    }, {
+      "id": "5812c38b-e618-4bca-b8ef-b8878807d7bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=postalCode",
+      "targets": [
+        ["id=postalCode", "id"],
+        ["name=postalCode", "name"],
+        ["css=#postalCode", "css:finder"],
+        ["xpath=//input[@id='postalCode']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/form/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "T2N 1N4"
+    }, {
+      "id": "9e2f5364-76a3-42da-a87b-9b3e0066c851",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mxxjv > .GSYpm > span",
+      "targets": [
+        ["css=.mxxjv > .GSYpm > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/form/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3c18b92-7658-4196-ac3c-499ce3731239",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.\\_1NbE6",
+      "targets": [
+        ["css=.\\_1NbE6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Thanks for signing up!')]", "xpath:innerText"]
+      ],
+      "value": "Thanks for signing up!"
+    }]
+  }, {
+    "id": "d7cd3024-aac9-45fe-a607-844d649e75eb",
+    "name": "BestBuy-CreateAccountSuccess(7)",
+    "commands": [{
+      "id": "4de00bb3-efd8-4bea-bfd4-8bb84c40d3fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/identity/en-ca/create-account?tid=ABRALvvkKuAOhga0%252FYe1ij4vZNvE4mQItJSOrK%252FHU%252FXsP32tWQ%252BZDdKADuU9hr5dVKIz7Qw8pNmRoQSHS37k22dWUWvUEeztNiD09Oc77ChUob01%252B3mlSMDu%252FRqnQm6mpazKwz6XzwkLthFg%252BHrb9liCz4YFPC2UAb9gRRaudeRzUjrUE2lJnAeMaDIluUf%252Fs0avdHoVel6qCNudCLSWD%252FQh5dZFoN4DpeOe7Qp9PNKG101VVLJWGm1Bn0339L1kKyr1cHdHxGIKYG2dp2n3QAGaHo2mBNCCeXQ3enxonatDGQIb2DdTBu2IQUoNZJL%252B",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c211ce2-bcce-41dd-9370-3b1509957980",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2e96b57-6232-4401-b2fd-1089e50bda86",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab2ff9f4-9d99-4983-b647-f53fa4127362",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Bob"
+    }, {
+      "id": "3694db87-e3f8-4d1d-8bfb-2899a864f933",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "bffc24a9-d127-46f5-86b1-983fad4153bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "bobtest1358@gmail.com"
+    }, {
+      "id": "1f287cde-80ac-429d-96a6-116047d9153a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "418e1375-905d-4703-af9b-b5da529fe780",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e4993553-cefc-4cfa-90c6-432a73942d24",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a6b7a32-ef5a-4a7c-bde1-00ba8b49e1d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "password1!"
+    }, {
+      "id": "a44f4038-6241-4b68-8cf6-c8bafb066af8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-hide-password",
+      "targets": [
+        ["css=.show-hide-password", "css:finder"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[3]/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61b8255c-d53b-4cc9-8f0f-5ad50b0dcd9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GSYpm",
+      "targets": [
+        ["css=.GSYpm", "css:finder"],
+        ["xpath=//form[@id='createAccount']/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db0cab1d-e246-433d-961b-a48e31022081",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mWZ7T > p",
+      "targets": [
+        ["css=.mWZ7T > p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'An account with this email address already exists. Please use it to sign in or enter a new email to continue.')]", "xpath:innerText"]
+      ],
+      "value": "An account with this email address already exists. Please use it to sign in or enter a new email to continue."
+    }]
+  }, {
+    "id": "9bce7020-d4b1-4c81-bf01-b7516ab9583b",
+    "name": "BestBuy-SignInSuccess(8)",
+    "commands": [{
+      "id": "e8a50f12-2a26-4acb-a04d-50aac2ef7540",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48f55d50-55f0-4c6a-87d6-f03ee6d82067",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd325556-bace-4430-8802-5c825fd06075",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "061733cd-7818-4655-a198-94aabaa6992e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afad0ddd-e07c-4835-b25a-05e63bdea408",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountIcon_1qK20",
+      "targets": [
+        ["css=.accountIcon_1qK20", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3706b1a3-8921-496c-b550-45faa93b36c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-content-container",
+      "targets": [
+        ["css=.page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd760b5e-56e6-4f84-a634-cb5e36396642",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44ca8a29-cc30-497b-bb7a-068ecd14e0cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "password1!"
+    }, {
+      "id": "662bd62e-bead-4b4a-a369-864da452b646",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-hide-password",
+      "targets": [
+        ["css=.show-hide-password", "css:finder"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5137cda7-b540-4838-9e2d-a2340cf1ec88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GSYpm > span",
+      "targets": [
+        ["css=.GSYpm > span", "css:finder"],
+        ["xpath=//form[@id='signIn']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ae76c8-4514-47d3-9649-db63e3fdc63d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.\\_17p3O > span",
+      "targets": [
+        ["css=.\\_17p3O > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/section/div/span/span", "xpath:idRelative"],
+        ["xpath=//div/span/span", "xpath:position"]
+      ],
+      "value": "Welcome to your account."
+    }, {
+      "id": "0ea8506d-fe3f-4989-98b9-98263a076c58",
+      "comment": "",
+      "command": "click",
+      "target": "css=span .\\_1_CZk",
+      "targets": [
+        ["css=span .\\_1_CZk", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div/div/div[2]/div[2]/div/div/div/a/span/div/span", "xpath:idRelative"],
+        ["xpath=//span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "372044f6-8c2b-49b2-9a7c-10df8c5ab952",
+      "comment": "",
+      "command": "click",
+      "target": "css=.PFgX0:nth-child(2)",
+      "targets": [
+        ["css=.PFgX0:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div/div/div[2]/div[2]/div/div/div[2]/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdb05f07-269f-4675-b98c-d1fe1690d92a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a2cf85c5-6d27-4df0-9978-e82442c9ac0e",
+    "name": "BestBuy-SigninUnsuccessfull(8)",
+    "commands": [{
+      "id": "6bf71757-8590-47fe-ad91-f00f1ba99dcd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e78ff7ab-9408-4a32-b84c-acf1e0f84c0e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4210efff-0215-4553-8a23-1999c734861a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cb9ca0e-60f6-49d7-871d-8a2adfce7054",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a69fdecb-8f0b-4b32-bfba-27ee423bce66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountIcon_1qK20",
+      "targets": [
+        ["css=.accountIcon_1qK20", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f91b1a9-902e-46cc-88ca-b67088186371",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa4e011-ea1e-4492-afba-cc35581adc7d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "7a55abf6-0dea-4afa-8fbe-b25c61af976f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GSYpm > span",
+      "targets": [
+        ["css=.GSYpm > span", "css:finder"],
+        ["xpath=//form[@id='signIn']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cd5094c-545d-4c2c-b3ca-d7fceec34f08",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mWZ7T > p",
+      "targets": [
+        ["css=.mWZ7T > p", "css:finder"],
+        ["xpath=//div[@id='x-SignIn']/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Sorry, the e-mail address and password you entered don’t match. Please try again.')]", "xpath:innerText"]
+      ],
+      "value": "Sorry, the e-mail address and password you entered don’t match. Please try again."
+    }]
+  }, {
+    "id": "23a1a7d2-2ee4-4eba-9a13-461d293e363f",
+    "name": "BestBuy-CreateAccountUnsuccessfully(7)",
+    "commands": [{
+      "id": "0465b79f-c62a-4026-b89d-7254466c531f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8530b9e5-7eb3-45ec-afba-7172b9d5814e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c25ca450-5dcc-4625-a10e-68c0eb62038d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.accountIcon_1qK20",
+      "targets": [
+        ["css=.accountIcon_1qK20", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4d3e5ec-45c1-4968-bb3f-440fa47e4a37",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.accountIcon_1qK20",
+      "targets": [
+        ["css=.accountIcon_1qK20", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be434bc-e01b-45fe-b606-3565e72af21c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37db2034-463c-44fc-9f4b-25a55a2a2c2d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e1d3e67-853f-4b9f-80d1-00fa53a6b72d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountIcon_1qK20",
+      "targets": [
+        ["css=.accountIcon_1qK20", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8133ca8-3533-4a41-b92d-5afc829089f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3Po4I > span",
+      "targets": [
+        ["css=.\\_3Po4I > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create an account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fca2ee5d-b643-4e4e-ba5b-15d027bfc7a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9920ab16-1fc2-4168-a44c-2cae340f23d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Joe"
+    }, {
+      "id": "59eb0c48-378f-4a4a-8741-b0806248eb47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GSYpm",
+      "targets": [
+        ["css=.GSYpm", "css:finder"],
+        ["xpath=//form[@id='createAccount']/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e38fee4e-684a-4d00-852c-08e934eb8eb3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.\\_3aIL6 .error-msg",
+      "targets": [
+        ["css=.\\_3aIL6 .error-msg", "css:finder"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Please enter a valid last name."
+    }]
+  }, {
+    "id": "23d1a83d-d1c0-4cfe-a752-0c993f77df7c",
+    "name": "BestBuy-UnsuccesfulEmailSignUp(6)",
+    "commands": [{
+      "id": "1606021d-d843-4aa1-a6c5-67d45c17dee7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/account/en-ca/email-sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6075d68a-e841-4c63-bfa7-05550979001f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47f33c73-7e61-4663-89c8-28e01f70602c",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=.vPpxf #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2414425-4b6a-4e6f-bc4d-064a7a1cb9c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=.vPpxf #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "123124124124"
+    }, {
+      "id": "7e6207f0-0425-4dd7-8c6f-b5f1aaafcec3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mxxjv > .GSYpm > span",
+      "targets": [
+        ["css=.mxxjv > .GSYpm > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/form/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9233aef6-a902-4858-8937-928b3981ea74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3jINO",
+      "targets": [
+        ["css=.\\_3jINO", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/form/div", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee69d003-0f2f-49bf-a70d-9956f53bdb1c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.validation-error > .error-msg",
+      "targets": [
+        ["css=.validation-error > .error-msg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/form/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Please enter a valid email address."
+    }]
+  }],
+  "suites": [{
+    "id": "849c04e7-49b7-4210-85ea-7f8ca6f66a16",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.bestbuy.ca/en-ca", "https://www.bestbuy.ca/en-ca/product/google-chromecast-3rd-generation-charcoal-grey/13021720", "https://www.bestbuy.ca/en-ca/product/google-google-chromecast-ultra-nc2-6a5-d/10482688", "https://www.bestbuy.ca/en-ca/product/lg-65-4k-uhd-hdr-oled-webos-smart-tv-oled65c1aub-2021/15442034", "https://www.bestbuy.ca/identity/en-ca/create-account?tid=ABRALvvkKuAOhga0%252FYe1ij4vZNvE4mQItJSOrK%252FHU%252FXsP32tWQ%252BZDdKADuU9hr5dVKIz7Qw8pNmRoQSHS37k22dWUWvUEeztNiD09Oc77ChUob01%252B3mlSMDu%252FRqnQm6mpazKwz6XzwkLthFg%252BHrb9liCz4YFPC2UAb9gRRaudeRzUjrUE2lJnAeMaDIluUf%252Fs0avdHoVel6qCNudCLSWD%252FQh5dZFoN4DpeOe7Qp9PNKG101VVLJWGm1Bn0339L1kKyr1cHdHxGIKYG2dp2n3QAGaHo2mBNCCeXQ3enxonatDGQIb2DdTBu2IQUoNZJL%252B", "https://www.bestbuy.ca/account/en-ca/email-sign-up"],
+  "plugins": []
+}
